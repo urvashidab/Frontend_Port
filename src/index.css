@@ -46,13 +46,8 @@ html {
     background-position: center center;
     /* filter: brightness(0.8); */
   }
+}
 
-  @media (max-width: 1024px) {
-    body,
-    .dark body {
-      background-attachment: scroll !important;
-      background-size: contain !important;
-      background-position: top center !important;
-    }
-  }
+.handwriting {
+  font-family: "Caveat", cursive;
 }
