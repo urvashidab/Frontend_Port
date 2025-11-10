@@ -73,7 +73,7 @@ export default function Navbar() {
             {/* Dark Mode Toggle */}
             <button
               onClick={handleDarkMode}
-              className="relative w-10 h-10 rounded-full dark:bg-gray-800 bg-amber-500 flex items-center justify-center text-white shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300"
+              className="relative w-10 h-10 rounded-full cursor-pointer dark:bg-gray-800 bg-amber-500 flex items-center justify-center text-white shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300"
               aria-label="Toggle dark mode"
             >
               <span className="relative">
@@ -86,7 +86,7 @@ export default function Navbar() {
             </button>
 
             {/* Resume Button */}
-            <button className="hidden lg:flex items-center gap-2 px-5 py-2.5 rounded-full bg-amber-500 dark:bg-gray-800   text-white/90 font-bold shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 group">
+            <button className="hidden lg:flex items-center gap-2 px-5 py-2.5  cursor-pointer btnStyle duration-300 group">
               <span>Resume</span>
 
               <Download className="w-4 h-4 group-hover:translate-y-0.5 transition-transform duration-300" />

@@ -51,3 +51,12 @@ html {
 .handwriting {
   font-family: "Caveat", cursive;
 }
+
+@layer components {
+  .btnStyle {
+    @apply rounded-full bg-gradient-to-r from-yellow-500 to-orange-400 
+           dark:from-gray-800 dark:to-gray-800 text-white/90 font-bold 
+           shadow-md hover:scale-105 hover:shadow-lg active:scale-95 
+           transition-all;
+  }
+}

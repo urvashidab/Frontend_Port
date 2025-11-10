@@ -35,7 +35,7 @@ const About = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1 }}
-          className="inline-block mt-8 px-6 py-3 rounded-full bg-gradient-to-r from-yellow-500 to-orange-400 dark:from-gray-800 dark:to-gray-800 text-white/90 font-bold shadow-md hover:scale-105 hover:shadow-lg active:scale-95 transition-all"
+          className="inline-block mt-8 px-6 py-3 duration-300 btnStyle"
         >
           View My Work
         </motion.a>
