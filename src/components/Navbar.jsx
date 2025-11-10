@@ -49,7 +49,7 @@ export default function Navbar() {
           {/* Logo with gradient animation */}
           <a
             href="#"
-            className="relative text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-amber-600 via-amber-900 to-amber-300 dark:from-amber-50 dark:via-amber-50 dark:to-amber-100  bg-clip-text text-transparent animate-gradient bg-[length:200%_auto] hover:scale-110 transition-transform duration-300"
+            className="relative text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-amber-600 via-amber-900 to-amber-300 dark:from-sky-100 dark:via-sky-200 dark:to-sky-100  bg-clip-text text-transparent animate-gradient bg-[length:200%_auto] hover:scale-110 transition-transform duration-300"
           >
             Urvashi
           </a>

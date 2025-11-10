@@ -15,7 +15,7 @@ const Contact = () => {
       {/* Left Section */}
       <div className="flex flex-col justify-center gap-10">
         <motion.h1
-          className="text-3xl text-amber-600  md:text-5xl font-bold"
+          className="text-3xl text-amber-600 dark:text-sky-200 md:text-5xl font-bold"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 1 }}
