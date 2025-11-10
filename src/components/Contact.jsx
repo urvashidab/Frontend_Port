@@ -1,6 +1,7 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 import { FaPhone } from "react-icons/fa6";
 import { TiSocialFacebook, TiSocialTwitter } from "react-icons/ti";
@@ -13,7 +14,14 @@ const Contact = () => {
     >
       {/* Left Section */}
       <div className="flex flex-col justify-center gap-10">
-        <h1 className="text-3xl md:text-5xl font-bold">Let’s Connect</h1>
+        <motion.h1
+          className="text-3xl text-amber-600  md:text-5xl font-bold"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4, duration: 1 }}
+        >
+          Let’s Connect
+        </motion.h1>
         <p className=" text-2xl leading-relaxed">
           Got a cool project idea? Want to collaborate? Or just want to say hi?{" "}
           <br />
@@ -110,7 +118,7 @@ const Contact = () => {
               type="email"
               required
               placeholder="Your email"
-              className="p-3 rounded-md bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
             />
           </div>
 
@@ -120,7 +128,7 @@ const Contact = () => {
               rows="4"
               required
               placeholder="Write your message..."
-              className="p-3 rounded-md bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
             ></textarea>
           </div>
 
