@@ -23,23 +23,22 @@ const Contact = () => {
           Let’s Connect
         </motion.h1>
         <p className=" text-2xl leading-relaxed">
-          Got a cool project idea? Want to collaborate? Or just want to say hi?{" "}
-          <br />
+          Got a cool project idea? Want to collaborate? Or just say hi? <br />
           Drop me a message — I’d love to hear from you!
         </p>
 
         {/* email */}
 
-        <div className="flex items-center gap-2  text-3xl">
+        <div className="flex items-center gap-2 ">
           <a
-            href="mailto:urvashidab@gmail.com"
-            className="hover:text-amber-600 transition-all"
+            href="mailto:urvashi.ucoe@gmail.com"
+            className="contactIconStyle text-3xl"
           >
             <MdEmail />
           </a>{" "}
           <a
             href="mailto:urvashi.ucoe@gmail.com"
-            className="hover:text-amber-600 transition-all underline text-xl  font-sans"
+            className="contactIconStyle underline text-xl"
           >
             urvashi.ucoe@gmail.com
           </a>
@@ -47,55 +46,60 @@ const Contact = () => {
 
         {/* phone icons */}
 
-        <div className="flex items-center gap-2  text-3xl">
-          <a
-            href=""
-            rel="noreferrer"
-            className="hover:text-amber-600 transition-all"
-          >
+        <div className="flex items-center gap-2 ">
+          <span className="contactIconStyle text-3xl">
             <FaPhone />
-          </a>
-          <a
-            href=""
-            className="hover:text-amber-600 transition-all underline text-xl  font-sans"
-          >
+          </span>
+          <a href="tel:+16479650612" className="contactIconStyle text-xl">
             +1 647-965-0612
           </a>
         </div>
 
         {/* social icons */}
 
-        <div className="flex items-center gap-6  text-3xl">
+        <div className="flex items-center gap-6 mt-6 text-3xl">
           <a
             href="https://github.com/urvashidab#-ciao-im-urvashi-"
-            rel="noreferrer nonopener"
+            rel="noopener noreferrer"
             target="_blank"
-            className="hover:text-amber-600 transition-all "
+            className="socialIconStyle "
+            aria-label="GitHub Profile"
           >
             <FaGithub />
           </a>
 
           <a
             href="https://www.facebook.com/urvashi14"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
-            className="hover:text-amber-600 transition-all "
+            className="socialIconStyle "
+            aria-label="Facebook Profile"
           >
             <TiSocialFacebook />
           </a>
 
           <a
             href="https://x.com/gagz1311461"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
-            className="hover:text-amber-600 transition-all "
+            className="socialIconStyle "
+            aria-label="Twitter Profile"
           >
             <TiSocialTwitter />
           </a>
         </div>
 
-        <p className="mt-20 text-sm">
-          Photo is designed by <i>Richards Drawings</i>
+        <p className="mt-20 text-sm italic">
+          Background photo by{" "}
+          <a
+            href="https://pixabay.com/illustrations/cat-pet-animal-orange-smiling-9307910/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-amber-600 dark:hover:text-blue-300"
+          >
+            Richards Drawings
+          </a>{" "}
+          on Pixabay
         </p>
       </div>
 

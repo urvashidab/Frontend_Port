@@ -3,17 +3,22 @@ import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    // Load user preference from localStorage or system
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) return savedTheme === "dark";
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  });
   const [scrolled, setScrolled] = useState(false);
 
-  // handle dark mode
-  const handleDarkMode = () => setDarkMode(!darkMode);
-
+  // Save & apply dark mode
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
     } else {
       document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
     }
   }, [darkMode]);
 
@@ -26,6 +31,7 @@ export default function Navbar() {
   }, []);
 
   const handleMenu = () => setOpenMenu(!openMenu);
+  const handleDarkMode = () => setDarkMode(!darkMode);
 
   const navLinks = [
     ["About Me", "#"],
