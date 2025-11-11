@@ -71,21 +71,22 @@ const Skills = () => {
     >
       {/* Heading */}
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-        Some of the <span className="text-amber-500">Skills</span> I’ve worked
-        with
+        Some of the{" "}
+        <span className="text-amber-500 dark:text-sky-300">Skills</span> I’ve
+        worked with
       </h1>
 
       {/* Skill Sections */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {skillsData.map((section, idx) => (
           <div
             key={idx}
-            className="bg-white/60 dark:bg-gray-800 backdrop-blur-md p-8 rounded-2xl shadow-md hover:shadow-xl transition-all"
+            className="bg-white/60 dark:bg-gray-800 backdrop-blur-md p-6 rounded-2xl shadow-md hover:shadow-xl transition-all"
           >
             <h2 className="text-2xl font-semibold mb-6 text-amber-600 dark:text-sky-200 text-center">
               {section.section}
             </h2>
-            <div className="grid grid-cols-3 gap-8 justify-items-center">
+            <div className="grid grid-cols-3 gap-6 justify-items-center">
               {section.skills.map((skill, i) => {
                 const Icon = skill.icon;
                 return (
