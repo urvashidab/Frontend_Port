@@ -112,7 +112,7 @@ const Contact = () => {
               type="text"
               required
               placeholder="Your name"
-              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400 dark:focus:ring-sky-300"
             />
           </div>
 
@@ -122,7 +122,7 @@ const Contact = () => {
               type="email"
               required
               placeholder="Your email"
-              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400 dark:focus:ring-sky-300"
             />
           </div>
 
@@ -132,7 +132,7 @@ const Contact = () => {
               rows="4"
               required
               placeholder="Write your message..."
-              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="p-3 rounded-md contactformFont bg-white/80 dark:bg-gray-800 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-400 dark:focus:ring-sky-300"
             ></textarea>
           </div>
 
