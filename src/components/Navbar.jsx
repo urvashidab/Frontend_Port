@@ -37,7 +37,7 @@ export default function Navbar() {
     ["About Me", "#"],
     ["Skills", "#skills"],
     ["Projects", "#projects"],
-    ["Experience", "#experience"],
+    // ["Experience", "#experience"],
     ["Reach Out", "#contact"],
   ];
 
