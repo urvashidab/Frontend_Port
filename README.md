@@ -15,3 +15,6 @@ Technologies Used
 • Tailwind CSS – Styling and layout
 • Lucide React – Icons
 • Vite – Fast build and development environment
+
+LIVE Link 
+https://urvashiportfolio.vercel.app/
