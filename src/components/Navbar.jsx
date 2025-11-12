@@ -93,7 +93,7 @@ export default function Navbar() {
 
             {/* Resume Button */}
             <button className="hidden lg:flex items-center gap-2 px-5 py-2.5  cursor-pointer btnStyle duration-300 group">
-              <span>Resume</span>
+              <span className="contactformFont font-extrabold">Resume</span>
 
               <Download className="w-4 h-4 group-hover:translate-y-0.5 transition-transform duration-300" />
             </button>
@@ -156,7 +156,7 @@ export default function Navbar() {
           {/* Mobile Resume Button */}
           <li className="px-4 pt-3 pb-2 border-t border-gray-200 dark:border-gray-700 mt-2">
             <button className="w-full flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-amber-700 dark:bg-gray-700 text-white font-medium shadow-lg hover:shadow-xl active:scale-95 transition-all duration-300">
-              <span>Resume</span>
+              <span className="contactformFont">Resume</span>
               <Download className="w-4 h-4" />
             </button>
           </li>
