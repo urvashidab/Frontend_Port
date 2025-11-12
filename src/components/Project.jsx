@@ -200,7 +200,7 @@ export default function Projects() {
         )}
 
         {/* Keyboard hint */}
-        <div className="text-center mt-4 text-xs text-gray-500 dark:text-gray-400">
+        <div className="text-center mt-4 text-xs contactformFont">
           Use ← → arrow keys to navigate
         </div>
       </div>
