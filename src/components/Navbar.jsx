@@ -66,7 +66,7 @@ export default function Navbar() {
               <li key={label}>
                 <a
                   href={link}
-                  className="relative px-5 py-2 text-lg font-medium rounded-full transition-all duration-100 hover:text-amber-600 dark:hover:text-white hover:bg-amber-200/60 dark:hover:bg-gray-700/60 group"
+                  className="relative navbarFont px-5 py-2 text-lg font-extrabold rounded-full transition-all duration-100 hover:text-amber-600 dark:hover:text-white hover:bg-amber-200/60 dark:hover:bg-gray-700/60 group"
                 >
                   {label}
                 </a>

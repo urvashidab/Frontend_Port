@@ -23,7 +23,7 @@ html {
   }
   .dark {
     --color-bg-base: rgb(55, 54, 54);
-    --color-text-base: #ececf2;
+    --color-text-base: #e5e7eb;
   }
 
   body {
@@ -65,6 +65,11 @@ html {
 
 .contactformFont {
   font-family: "Poppins", sans-serif;
+}
+
+.navbarFont {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .socialIconStyle {
